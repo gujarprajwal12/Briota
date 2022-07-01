@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+
+    android:gravity="center"
+    android:layout_height="150dp">
+
+    <LinearLayout
+
+        android:background="@drawable/dialog_box"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen10dp"
+            android:gravity="center"
+            android:text="Are you sure "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/tv_alert" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/Doyouwanttocall"
+            android:layout_margin="@dimen/dimen10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/TextBlue"
+            android:id="@+id/txtDialogMessage1"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/sosnumber1"
+            android:layout_width="wrap_content"
+            android:text="xxxxxxxxxxx"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/TextBlue"
+            android:layout_height="wrap_content"/>
+
+
+        <View
+            android:background="@color/faint_gray"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dimen10dp"
+            android:layout_marginTop="@dimen/dimen20dp"
+            android:layout_marginRight="@dimen/dimen10dp"
+            android:layout_height="@dimen/dimen1dp"></View>
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="@dimen/dimen100dp"
+                android:id="@+id/butNO"
+                android:text="NO"
+                android:textColor="@color/black"
+                android:layout_marginRight="@dimen/dimen10dp"
+                android:layout_marginLeft="@dimen/dimen10dp"
+                android:background="@drawable/but_decline"
+                android:layout_height="@dimen/dimen31dp">
+
+            </Button>
+
+            <Button
+                android:layout_width="@dimen/dimen100dp"
+                android:id="@+id/butYEs"
+                android:textColor="@color/white"
+                android:text="YES"
+                android:layout_marginRight="@dimen/dimen10dp"
+                android:layout_marginLeft="@dimen/dimen10dp"
+                android:background="@drawable/but_pay"
+                android:layout_height="@dimen/dimen31dp">
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

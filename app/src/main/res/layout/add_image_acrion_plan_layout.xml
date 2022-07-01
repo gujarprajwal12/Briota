@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mycard"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/dimen20dp"
+        android:layout_marginTop="@dimen/dimen20dp"
+        android:layout_marginRight="@dimen/dimen20dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/dimen10dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:weightSum="2">
+
+              <TextView
+                  android:layout_width="@dimen/dimen0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1.2"
+                  android:textColor="@color/Textblack"
+                  android:textSize="@dimen/HeadingText"
+                  android:text="Added by Myself"
+                  android:paddingTop="@dimen/dimen10dp"
+                  android:paddingLeft="@dimen/dimen10dp"
+                  android:textStyle="bold"/>
+
+              <TextView
+                  android:layout_width="@dimen/dimen0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight=".7"
+                  android:textColor="@color/Textblack"
+                  android:textSize="@dimen/HeadingText"
+                  android:text="12 March 2022"
+                  android:paddingTop="@dimen/dimen10dp"
+                  android:paddingLeft="@dimen/dimen10dp"
+                  android:textStyle="bold"/>
+
+
+
+
+
+
+          </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/dimen15dp"
+                android:layout_marginTop="@dimen/dimen20dp"
+                android:layout_marginRight="@dimen/dimen15dp"
+                android:layout_marginBottom="@dimen/dimen10dp"
+                android:background="@color/divider" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen45dp"
+                android:background="@drawable/btn_add_image"
+                android:layout_margin="@dimen/dimen10dp"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

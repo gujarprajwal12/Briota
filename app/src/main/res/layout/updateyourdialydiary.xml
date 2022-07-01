@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/dimen15dp"
+        android:layout_marginLeft="@dimen/dimen10dp"
+        android:layout_marginRight="@dimen/dimen10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen10dp"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/timefordairyupdaute"
+                android:layout_marginLeft="@dimen/dimen10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/dimen20dp"
+                android:layout_marginTop="@dimen/dimen10dp"
+                android:text="4 March 2022"
+                android:textColor="@color/Textblack"
+                android:textSize="@dimen/Text">
+
+            </TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen5dp"
+                android:weightSum="3"
+                >
+
+
+                <TextView
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:buttonTint="@color/TextBlue"
+                    android:text="@string/Medication"
+                    android:paddingRight="@dimen/dimen30dp"
+                    android:layout_weight="1.2"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/dimen5dp"
+                    android:textColor="@color/Textblack"
+                    />
+
+
+                <Button
+                    android:id="@+id/medicationsbtnyes"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="@dimen/dimen30dp"
+                    android:text="@string/Yes"
+                    android:layout_weight=".8"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:background="@drawable/whitebutton"
+                    android:gravity="center"
+                    android:textColor="@color/Textblack"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    />
+
+
+                <Button
+                    android:id="@+id/medicationsbtnno"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="@dimen/dimen30dp"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:buttonTint="@color/TextBlue"
+                    android:text="@string/No"
+                    android:layout_weight=".8"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:background="@drawable/whitebuttonredborder"
+                    android:gravity="center"
+                    android:textColor="@color/Textblack"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen5dp"
+                android:weightSum="3"
+                >
+
+
+                <TextView
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:buttonTint="@color/TextBlue"
+                    android:text="@string/Exercise"
+                    android:paddingRight="@dimen/dimen30dp"
+                    android:layout_weight="1.2"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/dimen5dp"
+                    android:textColor="@color/Textblack"
+                    />
+
+
+                <Button
+                    android:id="@+id/exercisebtnyes"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="@dimen/dimen30dp"
+                    android:text="@string/Yes"
+                    android:layout_weight=".8"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:background="@drawable/whitebutton"
+                    android:gravity="center"
+                    android:textColor="@color/Textblack"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    />
+
+
+                <Button
+                    android:id="@+id/exercisebtnno"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="@dimen/dimen30dp"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:buttonTint="@color/TextBlue"
+                    android:text="@string/No"
+                    android:layout_weight=".8"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:background="@drawable/whitebuttonredborder"
+                    android:gravity="center"
+                    android:textColor="@color/Textblack"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen5dp"
+                android:weightSum="3"
+                >
+
+
+                <TextView
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:buttonTint="@color/TextBlue"
+                    android:text="@string/Diet"
+                    android:paddingRight="@dimen/dimen30dp"
+                    android:layout_weight="1.2"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/dimen5dp"
+                    android:textColor="@color/Textblack"
+                    />
+
+
+                <Button
+                    android:id="@+id/dietbtnyes"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="@dimen/dimen30dp"
+                    android:text="@string/Yes"
+                    android:layout_weight=".8"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:background="@drawable/whitebutton"
+                    android:gravity="center"
+                    android:textColor="@color/Textblack"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    />
+
+
+                <Button
+                    android:id="@+id/dietbtnno"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="@dimen/dimen30dp"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:buttonTint="@color/TextBlue"
+                    android:text="@string/No"
+                    android:layout_weight=".8"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:background="@drawable/whitebuttonredborder"
+                    android:gravity="center"
+                    android:textColor="@color/Textblack"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    />
+
+            </LinearLayout>
+
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--             android:padding="@dimen/dimen5dp"-->
+<!--                android:weightSum="3"-->
+<!--                >-->
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="@dimen/dimen10dp"-->
+<!--                    android:buttonTint="@color/TextBlue"-->
+<!--                    android:text="@string/Diet"-->
+<!--                    android:layout_marginRight="75dp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:textColor="@color/Textblack"-->
+<!--                    />-->
+
+
+<!--                <Button-->
+<!--                    android:id="@+id/dietbtnyes"-->
+<!--                    android:layout_width="@dimen/dimen50dp"-->
+<!--                    android:layout_height="@dimen/dimen30dp"-->
+<!--                    android:text="@string/Yes"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_marginTop="@dimen/dimen10dp"-->
+<!--                    android:background="@drawable/whitebutton"-->
+<!--                    android:gravity="center"-->
+<!--                    android:textColor="@color/Textblack"-->
+<!--                    android:layout_marginBottom="@dimen/dimen10dp"-->
+<!--                    />-->
+
+
+<!--                <Button-->
+<!--                    android:id="@+id/dietbtnno"-->
+<!--                    android:layout_width="@dimen/dimen50dp"-->
+<!--                    android:layout_height="@dimen/dimen30dp"-->
+<!--                    android:layout_marginTop="@dimen/dimen10dp"-->
+<!--                    android:text="@string/No"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_marginLeft="@dimen/dimen10dp"-->
+<!--                    android:background="@drawable/whitebuttonredborder"-->
+<!--                    android:gravity="center"-->
+<!--                    android:textColor="@color/Textblack"-->
+<!--                    android:layout_marginBottom="@dimen/dimen10dp"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+
+
+
+            <Button
+                android:id="@+id/saveupdatemedication"
+                android:layout_width="match_parent"
+                android:enabled="false"
+                android:layout_height="@dimen/dimen45dp"
+                android:layout_marginTop="@dimen/dimen30dp"
+                android:layout_marginBottom="@dimen/dimen10dp"
+                android:background="@drawable/buttonshape"
+                android:text="@string/Save"
+                android:layout_marginLeft="@dimen/dimen5dp"
+                android:layout_marginRight="@dimen/dimen5dp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/Button_Background"
+                android:textColor="@color/white" />
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

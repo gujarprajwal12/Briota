@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+   >
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/currentwether"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/dimen15dp"
+        android:layout_marginLeft="@dimen/dimen5dp"
+        android:layout_marginRight="@dimen/dimen5dp"
+        android:layout_marginBottom="@dimen/dimen5dp"
+        android:layout_marginTop="@dimen/dimen20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <ImageView
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:src="@drawable/icon_weather"
+                    android:layout_weight="1"
+                    android:padding="@dimen/dimen5dp"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/current_weather"
+                    android:textColor="@color/Textblack"
+                    android:textSize="@dimen/Text"
+                    android:layout_weight="1.2"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="@dimen/dimen5dp"/>
+
+                <ImageView
+                    android:id="@+id/btncanclewether1"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen15dp"
+                    android:src="@drawable/icon_cancel"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/dimen20dp"
+                    android:padding="@dimen/dimen5dp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/dimen15dp"
+                android:layout_marginTop="@dimen/dimen10dp"
+                android:layout_marginRight="@dimen/dimen15dp"
+                android:layout_marginBottom="@dimen/dimen5dp"
+                android:background="@color/divider" />
+
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/dimen20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/weather_City"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/location"
+                    android:drawablePadding="5dp"
+                    android:text="Copenhagen, Denmark"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:textColor="@color/Textblack"
+                    android:textSize="15sp"
+                    android:gravity="start"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/weather_Time"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="08:15 AM"
+                    android:gravity="end"
+                    android:layout_marginRight="@dimen/dimen20dp"
+                    android:textColor="@color/TextBlue"
+                    android:textSize="15sp"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/TodayWeather"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Todayweather"
+                    android:textColor="@color/Textblack"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/weather_Cloudy"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cloudy   10 C"
+                    android:gravity="end"
+                    android:layout_marginRight="@dimen/dimen10dp"
+                    android:textColor="@color/TextBlue"
+                    android:textSize="15sp"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/weather_Humidity"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Humidity"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:textColor="@color/Textblack"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/weather_Rating"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="90 %"
+                    android:gravity="end"
+                    android:layout_marginRight="@dimen/dimen30dp"
+                    android:textColor="@color/TextBlue"
+                    android:textSize="15sp"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Temperatur"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:textColor="@color/Textblack"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/weather_temperature"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="50 %"
+                    android:gravity="end"
+                    android:layout_marginRight="@dimen/dimen20dp"
+                    android:textColor="@color/TextBlue"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/weather_Wind"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wind"
+                    android:textColor="@color/Textblack"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/weather_Windspeed"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="SE 10 km/h"
+                    android:textColor="@color/TextBlue"
+                    android:textSize="15sp"
+                    android:gravity="end"
+                    android:layout_marginRight="@dimen/dimen20dp"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

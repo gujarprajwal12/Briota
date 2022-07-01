@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/dimen15dp"
+        android:layout_marginLeft="@dimen/dimen10dp"
+        android:layout_marginRight="@dimen/dimen10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginLeft="@dimen/dimen10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/dimen10dp"
+                android:text="@string/enter_medicine_name_that_you_missed"
+                android:textColor="@color/Textblack"
+                android:textSize="@dimen/Text">
+
+            </TextView>
+
+
+            <EditText
+                android:id="@+id/enter_missed_medicine"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen51dp"
+                android:layout_marginTop="@dimen/dimen5dp"
+                android:layout_marginBottom="@dimen/dimen5dp"
+                android:background="@drawable/edit_text_selector"
+                android:focusable="true"
+                android:hint="@string/enter"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/dimen15dp"
+                android:textColor="@color/Textblack"
+                android:textColorHint="@color/Placeholder" />
+
+
+            <TextView
+                android:visibility="visible"
+                android:layout_marginLeft="@dimen/dimen10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/dimen10dp"
+                android:text="@string/select_number_of_puffs_you_missed"
+                android:textColor="@color/Textblack"
+                android:textSize="@dimen/Text">
+
+            </TextView>
+
+
+            <EditText
+                android:id="@+id/enter_missed_puff"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen51dp"
+                android:layout_marginTop="@dimen/dimen5dp"
+                android:layout_marginBottom="@dimen/dimen10dp"
+                android:background="@drawable/edit_text_selector"
+                android:focusable="true"
+                android:hint="@string/enter"
+                android:inputType="numberDecimal"
+                android:paddingLeft="@dimen/dimen15dp"
+                android:textColor="@color/Textblack"
+                android:textColorHint="@color/Placeholder" />
+
+
+
+
+            <TextView
+                android:layout_marginLeft="@dimen/dimen10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/dimen10dp"
+                android:text="@string/select_time_that_you_missed"
+                android:textColor="@color/Textblack"
+                android:textSize="@dimen/Text">
+
+            </TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+
+                <CheckBox
+                    android:id="@+id/missed_checkBox_morning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:buttonTint="@color/TextBlue"
+                    android:text="@string/morning"
+                    android:layout_weight=".7"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/Textblack"
+                    />
+
+                <CheckBox
+                    android:id="@+id/missed_checkBox_afternoon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen30dp"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:buttonTint="@color/TextBlue"
+                    android:text="@string/Afternoon"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/Textblack"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+
+                <CheckBox
+                    android:id="@+id/missed_checkBox_evening"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:buttonTint="@color/TextBlue"
+                    android:text="@string/Evening"
+                    android:layout_weight=".6"
+                    android:textColor="@color/Textblack"
+                    />
+
+                <CheckBox
+                    android:id="@+id/missed_checkBox_night"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen30dp"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:buttonTint="@color/TextBlue"
+                    android:text="@string/Night"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/Textblack"
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen45dp"
+                android:background="@drawable/buttonshape"
+                android:text="@string/Save"
+                android:layout_marginTop="@dimen/dimen20dp"
+                android:layout_marginLeft="@dimen/dimen5dp"
+                android:layout_marginRight="@dimen/dimen5dp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/Button_Background"
+                android:textColor="@color/white" />
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

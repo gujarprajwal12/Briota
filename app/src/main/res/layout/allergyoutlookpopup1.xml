@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    >
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/allergyoutlook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/dimen15dp"
+        android:layout_marginLeft="@dimen/dimen5dp"
+        android:layout_marginRight="@dimen/dimen5dp"
+        android:layout_marginTop="@dimen/dimen5dp"
+        android:layout_marginBottom="@dimen/dimen5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:layout_marginStart="@dimen/dimen10dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="@dimen/dimen50dp"
+                    android:layout_marginLeft="@dimen/dimen5dp"
+                    android:layout_marginRight="@dimen/dimen5dp"
+                    android:padding="@dimen/dimen10dp"
+                    android:src="@drawable/allergyhd1"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/allergy_outlook"
+                    android:textColor="@color/Textblack"
+                    android:textSize="@dimen/HeadingText"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1.5"/>
+
+
+                <ImageView
+                    android:id="@+id/btncancleallergy1"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="@dimen/dimen40dp"
+                    android:layout_marginLeft="@dimen/dimen30dp"
+                    android:src="@drawable/icon_cancel"
+                    android:layout_weight="0.5"
+                    android:padding="@dimen/dimen10dp"
+                    android:layout_marginTop="@dimen/dimen5dp"></ImageView>
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/dimen15dp"
+                android:layout_marginTop="@dimen/dimen5dp"
+                android:layout_marginRight="@dimen/dimen15dp"
+                android:layout_marginBottom="@dimen/dimen5dp"
+                android:background="@color/divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/allergy_city"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/location"
+                    android:drawablePadding="5dp"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:text="Copenhagen, Denmark"
+                    android:textColor="@color/Textblack"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/allergy_Time"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:text="08:15 Am"
+                    android:gravity="end"
+                    android:layout_marginRight="@dimen/dimen10dp"
+                    android:textColor="@color/TextBlue"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tree_Pollen"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TreePollen"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:textColor="@color/Textblack"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/tree_Pollen_status"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:layout_marginRight="@dimen/dimen10dp"
+                    android:text="Low     "
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:textColor="@color/TextBlue"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="@dimen/dimen150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mold"
+                    android:layout_marginLeft="@dimen/dimen20dp"
+                    android:textColor="@color/Textblack"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Low"
+                    android:layout_marginLeft="@dimen/dimen50dp"
+                    android:textColor="@color/TextBlue"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dust &amp; Dander "
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:textColor="@color/Textblack"
+                    android:layout_weight="1"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Low"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:textColor="@color/TextBlue"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/grass_Pollen"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/GrassPollen"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:textColor="@color/Textblack"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/grass_Pollen_status"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Low"
+                    android:gravity="end"
+                    android:layout_marginRight="@dimen/dimen20dp"
+                    android:textColor="@color/TextBlue"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/ragweed_Pollen"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RagweedPollen"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:textColor="@color/Textblack"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/ragweed_Pollen_status"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Low"
+                    android:textColor="@color/TextBlue"
+                    android:gravity="end"
+                    android:layout_marginRight="@dimen/dimen20dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

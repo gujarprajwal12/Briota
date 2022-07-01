@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/zone_dairy_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:padding="@dimen/dimen5dp"
+        android:textSize="@dimen/Text"
+        android:textColor="@color/Textblack"
+        android:textStyle="bold"
+        android:text="Date"
+        android:layout_weight="1.3"
+        android:layout_marginTop="@dimen/dimen5dp"/>
+
+    <TextView
+        android:id="@+id/zone_dairy_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:padding="@dimen/dimen5dp"
+        android:textSize="@dimen/Text"
+        android:textColor="@color/Textblack"
+        android:textStyle="bold"
+        android:text="Time"
+        android:layout_weight="1.3"
+        android:layout_marginTop="@dimen/dimen5dp"/>
+
+    <ImageView
+        android:id="@+id/zone_dairy_img"
+        android:layout_width="@dimen/dimen0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:src="@drawable/rightlogo"
+        android:padding="@dimen/dimen5dp"/>
+
+
+</LinearLayout>

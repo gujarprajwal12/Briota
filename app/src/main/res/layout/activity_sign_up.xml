@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Front_End.UI.SignUpActivity">
+
+
+
+    <include layout="@layout/toolbar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen2dp"
+        android:background="@color/divider"
+        android:backgroundTint="@color/divider"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_Welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="@dimen/dimen10dp"
+            android:gravity="center|top"
+            android:text="@string/welcome"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/Headline_Black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen10dp"
+            android:gravity="center"
+            android:text="@string/please_provide_the_details_for"
+            android:textColor="@color/Textblack"
+            android:textSize="@dimen/Text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen5dp"
+            android:gravity="center"
+            android:text="@string/your_new_account"
+            android:textColor="@color/Textblack"
+            android:textSize="@dimen/Text" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen15dp"
+        android:layout_marginRight="@dimen/dimen15dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editFirstName"
+            android:drawableLeft="@drawable/customprofileicon"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen51dp"
+            android:layout_marginTop="@dimen/dimen20dp"
+            android:layout_marginBottom="@dimen/dimen10dp"
+            android:background="@drawable/edit_text_selector"
+            android:focusable="true"
+            android:hint="@string/firstname"
+            android:inputType="textCapSentences"
+            android:paddingLeft="@dimen/dimen15dp"
+            android:textColor="@color/Textblack"
+            android:textColorHint="@color/Placeholder" />
+
+
+        <EditText
+            android:id="@+id/editLastName"
+            android:drawableLeft="@drawable/customprofileicon"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen51dp"
+            android:layout_marginTop="@dimen/dimen5dp"
+            android:layout_marginBottom="@dimen/dimen10dp"
+            android:background="@drawable/edit_text_selector"
+            android:focusable="true"
+            android:hint="@string/lastname"
+            android:inputType="textCapSentences"
+            android:paddingLeft="@dimen/dimen15dp"
+            android:textColor="@color/Textblack"
+            android:textColorHint="@color/Placeholder" />
+
+
+
+
+
+        <EditText
+            android:id="@+id/editEmailID"
+            android:drawableLeft="@drawable/custommail"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen51dp"
+            android:layout_marginTop="@dimen/dimen5dp"
+            android:layout_marginBottom="@dimen/dimen10dp"
+            android:background="@drawable/edit_text_selector"
+            android:focusable="true"
+            android:hint="@string/emailid"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/dimen15dp"
+            android:textColor="@color/Textblack"
+            android:textColorHint="@color/Placeholder" />
+
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <com.hbb20.CountryCodePicker-->
+<!--                android:id="@+id/editCountryCode"-->
+<!--                android:layout_width="@dimen/dimen150dp"-->
+<!--                android:layout_height="@dimen/dimen51dp"-->
+<!--                android:layout_marginTop="@dimen/dimen5dp"-->
+<!--                android:layout_marginRight="@dimen/dimen10dp"-->
+<!--                android:layout_marginBottom="@dimen/dimen10dp"-->
+<!--                android:background="@drawable/edit_text_selector"-->
+<!--                android:drawablePadding="10dp"-->
+<!--                android:focusable="true"-->
+<!--                android:hint="+21"-->
+<!--                android:inputType="number"-->
+<!--                android:maxLength="4"-->
+<!--                android:paddingLeft="@dimen/dimen15dp"-->
+<!--                android:textColor="@color/Textblack"-->
+<!--                android:textColorHint="@color/Placeholder"-->
+<!--                app:ccpDialog_backgroundColor="@color/white"-->
+<!--                app:ccpDialog_fastScroller_bubbleColor="@color/TextBlue"-->
+<!--                app:ccpDialog_fastScroller_handleColor="@color/Textblack"-->
+<!--                app:ccpDialog_initialScrollToSelection="true"-->
+<!--                app:ccpDialog_searchEditTextTint="@color/Placeholder"-->
+<!--                app:ccpDialog_textColor="@color/Textblack"-->
+<!--                app:ccp_arrowColor="@color/Textblack"-->
+<!--                app:ccp_autoDetectCountry="true"-->
+<!--                app:ccp_autoDetectLanguage="true"-->
+<!--                app:ccp_autoFormatNumber="true"-->
+<!--                app:ccp_contentColor="@color/Textblack"-->
+<!--                app:ccp_countryAutoDetectionPref="SIM_ONLY"-->
+<!--                app:ccp_rememberLastSelection="true" />-->
+
+<!--&lt;!&ndash;            <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/edityourcountrycode"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:paddingStart="@dimen/dimen15dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="@dimen/dimen100dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="@dimen/dimen51dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginTop="@dimen/dimen5dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginRight="@dimen/dimen10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginBottom="@dimen/dimen10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:background="@drawable/edit_text_selector"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:focusable="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:hint="+021"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:inputType="number"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:maxLength="4"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textColor="@color/Textblack"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textColorHint="@color/Placeholder" />&ndash;&gt;-->
+
+
+<!--            <EditText-->
+<!--                android:id="@+id/editmobilenumber"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/dimen51dp"-->
+<!--                android:layout_marginTop="@dimen/dimen5dp"-->
+<!--                android:layout_marginBottom="@dimen/dimen10dp"-->
+<!--                android:background="@drawable/edit_text_selector"-->
+<!--                android:layout_toRightOf="@id/editCountryCode"-->
+<!--                android:drawablePadding="10dp"-->
+<!--                android:focusable="true"-->
+<!--                android:hint="@string/mobile_number"-->
+<!--                android:inputType="number"-->
+<!--                android:maxLength="10"-->
+<!--                android:paddingLeft="@dimen/dimen15dp"-->
+<!--                android:textColor="@color/Textblack"-->
+<!--                android:textColorHint="@color/Placeholder" />-->
+
+<!--        </RelativeLayout>-->
+
+
+
+
+                    <EditText
+                        android:id="@+id/editmobilenumber"
+                        android:drawableLeft="@drawable/customphone"
+                        android:drawablePadding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen51dp"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:layout_marginBottom="@dimen/dimen10dp"
+                        android:background="@drawable/edit_text_selector"
+                        android:focusable="true"
+                        android:hint="e.g. +45 981-234-5678"
+                        android:inputType="phone"
+                        android:maxLength="13"
+                        android:paddingLeft="@dimen/dimen15dp"
+                        android:textColor="@color/Textblack"
+                        android:textColorHint="@color/Placeholder" />
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleTint="@color/TextBlue"
+            app:passwordToggleEnabled="true"
+            android:textColorHint="@color/TextBlue"
+            app:hintEnabled="false">
+
+            <EditText
+                android:id="@+id/editPasswordsignup"
+                android:drawableStart="@drawable/customlock"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen51dp"
+                android:layout_marginTop="@dimen/dimen10dp"
+                android:layout_marginBottom="@dimen/dimen10dp"
+                android:background="@drawable/edit_text_selector"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/dimen15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Placeholder" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleTint="@color/TextBlue"
+            app:passwordToggleEnabled="true"
+            android:textColorHint="@color/TextBlue"
+            app:hintEnabled="false">
+
+            <EditText
+                android:id="@+id/editConfirmPasswordsignup"
+                android:drawableStart="@drawable/customlock"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen51dp"
+                android:layout_marginTop="@dimen/dimen10dp"
+                android:layout_marginBottom="@dimen/dimen10dp"
+                android:background="@drawable/edit_text_selector"
+                android:hint="@string/confrirm_password"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/dimen15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Placeholder" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/signup_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen10dp"
+                android:buttonTint="@color/TextBlue" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/dimen10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/Textblack"
+                    android:text="@string/by_creating_your_account_you_agree_with_to"
+                    android:textSize="@dimen/Text"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/text_terms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/TextBlue"
+                    android:text="@string/terms_conditions"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/butSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen45dp"
+            android:layout_marginBottom="@dimen/dimen20dp"
+            android:layout_marginTop="@dimen/dimen10dp"
+            android:background="@drawable/buttonshape"
+            android:text="@string/bsign_up"
+            android:layout_marginLeft="@dimen/dimen5dp"
+            android:layout_marginRight="@dimen/dimen5dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/Button_Background"
+            android:textColor="@color/white" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

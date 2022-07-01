@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Front_End.UI.DailyZoneReadingsPeakFlowMeterActivity">
+
+
+
+    <include layout="@layout/toolbar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen2dp"
+        android:background="@color/divider"
+        android:backgroundTint="@color/divider"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:id="@+id/lay1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen10dp"
+            android:layout_marginRight="@dimen/dimen10dp"
+            android:background="@color/white"
+            android:visibility="visible"
+            android:orientation="vertical">
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_marginLeft="@dimen/dimen10dp"
+                android:layout_marginTop="@dimen/dimen20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PEF"
+                android:textStyle="bold"
+                android:textColor="@color/Textblack"
+                android:textSize="@dimen/Text">
+
+            </TextView>
+
+
+            <EditText
+                android:id="@+id/editPEF"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen51dp"
+                android:layout_marginTop="@dimen/dimen5dp"
+                android:layout_marginBottom="@dimen/dimen5dp"
+                android:background="@drawable/edit_text_selector"
+                android:focusable="true"
+                android:hint="e.g. 000000"
+                android:inputType="numberDecimal"
+                android:paddingLeft="@dimen/dimen15dp"
+                android:textColor="@color/Textblack"
+                android:textColorHint="@color/Placeholder" />
+
+
+            <TextView
+                android:layout_marginLeft="@dimen/dimen10dp"
+                android:layout_marginTop="@dimen/dimen20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SpO2"
+                android:inputType="numberDecimal"
+                android:textStyle="bold"
+                android:textColor="@color/Textblack"
+                android:textSize="@dimen/Text">
+
+            </TextView>
+
+
+            <EditText
+                android:id="@+id/editSpO21"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen51dp"
+                android:layout_marginTop="@dimen/dimen5dp"
+                android:layout_marginBottom="@dimen/dimen5dp"
+                android:background="@drawable/edit_text_selector"
+                android:focusable="true"
+                android:hint="e.g. 000000"
+                android:inputType="numberDecimal"
+                android:paddingLeft="@dimen/dimen15dp"
+                android:textColor="@color/Textblack"
+                android:textColorHint="@color/Placeholder" />
+
+
+
+            <TextView
+                android:layout_marginLeft="@dimen/dimen10dp"
+                android:layout_marginTop="@dimen/dimen20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Temperature"
+                android:textStyle="bold"
+                android:textColor="@color/Textblack"
+                android:textSize="@dimen/Text">
+
+            </TextView>
+
+
+            <EditText
+                android:id="@+id/editTemperature1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen51dp"
+                android:layout_marginTop="@dimen/dimen5dp"
+                android:layout_marginBottom="@dimen/dimen5dp"
+                android:background="@drawable/edit_text_selector"
+                android:focusable="true"
+                android:hint="e.g. 000000"
+                android:inputType="numberDecimal"
+                android:paddingLeft="@dimen/dimen15dp"
+                android:textColor="@color/Textblack"
+                android:textColorHint="@color/Placeholder" />
+
+
+
+
+
+
+
+            <TextView
+                android:layout_marginLeft="@dimen/dimen10dp"
+                android:layout_marginTop="@dimen/dimen20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pulse_Rate"
+                android:textStyle="bold"
+                android:textColor="@color/Textblack"
+                android:textSize="@dimen/Text">
+
+            </TextView>
+
+
+            <EditText
+                android:id="@+id/editPulseRate1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen51dp"
+                android:layout_marginTop="@dimen/dimen5dp"
+                android:layout_marginBottom="@dimen/dimen5dp"
+                android:background="@drawable/edit_text_selector"
+                android:focusable="true"
+                android:hint="e.g. 000000"
+                android:inputType="numberDecimal"
+                android:paddingLeft="@dimen/dimen15dp"
+                android:textColor="@color/Textblack"
+                android:textColorHint="@color/Placeholder" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonpeakflow"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen45dp"
+            android:layout_marginBottom="@dimen/dimen10dp"
+            android:layout_marginTop="@dimen/dimen50dp"
+            android:background="@drawable/buttonshape"
+            android:text="@string/Save"
+            android:layout_marginLeft="@dimen/dimen5dp"
+            android:layout_marginRight="@dimen/dimen5dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/Button_Background"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

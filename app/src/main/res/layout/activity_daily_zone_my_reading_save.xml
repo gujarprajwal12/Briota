@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/dimen5dp"
+    android:paddingLeft="@dimen/dimen5dp"
+    tools:context="app.briota.sia.Front_End.UI.DailyZoneMyReadingSaveActivity">
+
+
+
+    <include layout="@layout/blanktoolbar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen2dp"
+        android:background="@color/divider"
+        android:backgroundTint="@color/divider"/>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen10dp"
+       >
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen5dp"
+                android:layout_marginTop="@dimen/dimen5dp"
+                android:layout_marginRight="@dimen/dimen5dp"
+                android:layout_marginBottom="@dimen/dimen5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/dimen10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen5dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+
+
+                    <ImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ok1" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/great_job"
+                        android:layout_gravity="center_horizontal"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/TextBlue"
+                        android:textSize="@dimen/Text" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/you_have_successfully_recorded_your_symptoms_and_lung_test_values"
+                        android:layout_marginLeft="@dimen/dimen20dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/TextBlue"
+                        android:textSize="@dimen/Text" />
+
+
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen5dp"
+                android:layout_marginTop="@dimen/dimen30dp"
+                android:layout_marginRight="@dimen/dimen5dp"
+                android:layout_marginBottom="@dimen/dimen5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/dimen10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:layout_marginBottom="@dimen/dimen5dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/zonetext"
+                       android:layout_marginTop="@dimen/dimen15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/YouhavechosenRedzone"
+                        android:layout_marginLeft="@dimen/dimen10dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/TextBlue"
+                        android:layout_marginBottom="@dimen/dimen5dp"
+                        android:textSize="@dimen/Text" />
+
+
+                    <ImageView
+                        android:id="@+id/zoneimage"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/greensymextrasmall" />
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/homedailyzone"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen45dp"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    android:layout_marginTop="@dimen/dimen50dp"
+                    android:background="@drawable/buttonshape"
+                    android:text="@string/Home"
+                    android:layout_marginLeft="@dimen/dimen5dp"
+                    android:layout_marginRight="@dimen/dimen5dp"
+                    android:textAllCaps="false"
+                    android:backgroundTint="@color/Button_Background"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

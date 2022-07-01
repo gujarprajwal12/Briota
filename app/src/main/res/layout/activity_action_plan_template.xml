@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".Front_End.UI.MyActionPlanActivity"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/toolbar"></include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen2dp"
+        android:background="@color/divider"
+        android:backgroundTint="@color/divider"/>
+
+    <LinearLayout
+        android:id="@+id/chooseImageTemplate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="@dimen/dimen0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/dimen50dp">
+
+        <ImageView
+            android:id="@+id/img_Asthama"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/asthama_image"
+            android:paddingRight="@dimen/dimen20dp"
+            android:paddingLeft="@dimen/dimen20dp"
+            />
+
+            <Button
+                android:id="@+id/btn_Asthama"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen50dp"
+              android:layout_marginRight="@dimen/dimen20dp"
+                android:layout_marginLeft="@dimen/dimen20dp"
+                android:textColor="@color/white"
+                android:text="@string/Asthma"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/dimen0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/dimen50dp">
+
+            <ImageView
+                android:id="@+id/img_COPD"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/asthama_image"
+                android:paddingRight="@dimen/dimen20dp"
+                android:paddingLeft="@dimen/dimen20dp"
+                />
+
+            <Button
+                android:id="@+id/btn_COPD"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen50dp"
+                android:layout_marginRight="@dimen/dimen20dp"
+                android:layout_marginLeft="@dimen/dimen20dp"
+                android:textColor="@color/white"
+                android:text="@string/COPD"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <app.briota.sia.Front_End.UI.zoomclass
+        android:visibility="gone"
+        android:id="@+id/img_template"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimen20dp"
+        android:layout_marginLeft="@dimen/dimen10dp"
+        android:layout_marginRight="@dimen/dimen10dp"
+        android:layout_marginBottom="@dimen/dimen50dp"
+        android:src="@drawable/asthmanew"/>
+
+    <app.briota.sia.Front_End.UI.zoomclass
+        android:visibility="gone"
+        android:id="@+id/img_template1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimen20dp"
+        android:layout_marginLeft="@dimen/dimen10dp"
+        android:layout_marginRight="@dimen/dimen10dp"
+        android:layout_marginBottom="@dimen/dimen50dp"
+        android:src="@drawable/copd"/>
+
+
+</LinearLayout>

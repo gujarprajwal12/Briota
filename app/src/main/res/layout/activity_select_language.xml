@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Front_End.UI.SelectLanguage">
+
+
+    <include layout="@layout/blanktoolbar"></include>
+
+
+    <RadioGroup
+        android:id="@+id/radio_group_English"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+
+        <RadioButton
+            android:id="@+id/btn_Radio_English"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/TextBlue"
+            android:checked="true"
+            android:text="@string/english"
+            android:textColor="@color/Textblack"
+            android:textSize="@dimen/Text" />
+
+    </RadioGroup>
+
+
+    <!--    <RadioGroup-->
+    <!--        android:id="@+id/radio_group_French"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="10dp">-->
+
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/btn_Radio_French"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:buttonTint="@color/Text"-->
+    <!--            android:text="@string/French"-->
+    <!--            android:textColor="@color/Text_Black"-->
+    <!--            android:textSize="@dimen/Normal_Text" />-->
+
+    <!--    </RadioGroup>-->
+
+
+    <!--    <RadioGroup-->
+    <!--        android:id="@+id/radio_group_Italian"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="10dp">-->
+
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/btn_Radio_Italian"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:buttonTint="@color/Text"-->
+    <!--            android:text="@string/Italian"-->
+    <!--            android:textColor="@color/Text_Black"-->
+    <!--            android:textSize="@dimen/Normal_Text" />-->
+
+    <!--    </RadioGroup>-->
+
+
+    <!--    <RadioGroup-->
+    <!--        android:id="@+id/radio_group_German"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="10dp">-->
+
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/btn_Radio_German"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:buttonTint="@color/Text"-->
+    <!--            android:text="@string/German"-->
+    <!--            android:textColor="@color/Text_Black"-->
+    <!--            android:textSize="@dimen/Normal_Text" />-->
+
+    <!--    </RadioGroup>-->
+
+
+    <!--    <RadioGroup-->
+    <!--        android:id="@+id/radio_group_Spanish"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="10dp">-->
+
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/btn_Radio_Spanish"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:buttonTint="@color/Text"-->
+    <!--            android:text="@string/Spanish"-->
+    <!--            android:textColor="@color/Text_Black"-->
+    <!--            android:textSize="@dimen/Normal_Text" />-->
+
+    <!--    </RadioGroup>-->
+
+
+    <RadioGroup
+        android:id="@+id/radio_group_Danish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+
+        <RadioButton
+            android:id="@+id/btn_Radio_Danish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/TextBlue"
+            android:text="@string/danish"
+            android:textColor="@color/Textblack"
+            android:textSize="@dimen/Text" />
+
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen45dp"
+            android:layout_marginLeft="@dimen/dimen5dp"
+            android:layout_marginTop="@dimen/dimen50dp"
+            android:layout_marginRight="@dimen/dimen5dp"
+            android:layout_marginBottom="@dimen/dimen20dp"
+            android:background="@drawable/buttonshape"
+            android:backgroundTint="@color/Button_Background"
+            android:text="@string/next"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

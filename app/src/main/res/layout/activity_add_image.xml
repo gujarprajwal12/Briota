@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".Front_End.UI.MyActionPlanActivity"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/toolbar"></include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen2dp"
+        android:background="@color/divider"
+        android:backgroundTint="@color/divider"/>
+
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/mycard"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="140dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginLeft="@dimen/dimen20dp"-->
+<!--        android:layout_marginTop="@dimen/dimen20dp"-->
+<!--        android:layout_marginRight="@dimen/dimen20dp"-->
+<!--        app:cardBackgroundColor="@color/white"-->
+<!--        app:cardCornerRadius="@dimen/dimen10dp"-->
+<!--        android:layout_marginBottom="10dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@android:color/white"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="vertical"-->
+<!--            >-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="2">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="@dimen/dimen0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:textColor="@color/Textblack"-->
+<!--                    android:textSize="@dimen/HeadingText"-->
+<!--                    android:text="@string/added_by_myself"-->
+<!--                    android:paddingTop="@dimen/dimen10dp"-->
+<!--                    android:paddingLeft="@dimen/dimen10dp"-->
+<!--                    android:textStyle="bold"/>-->
+
+<!--                <TextView-->
+<!--                    android:gravity="end"-->
+<!--                    android:layout_width="@dimen/dimen0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight=".8"-->
+<!--                    android:textColor="@color/Textblack"-->
+<!--                    android:textSize="@dimen/HeadingText"-->
+<!--                    android:text="12 March 2022"-->
+<!--                    android:paddingTop="@dimen/dimen10dp"-->
+<!--                    android:paddingLeft="@dimen/dimen10dp"-->
+<!--                    android:textStyle="bold"/>-->
+
+
+
+
+
+
+<!--            </LinearLayout>-->
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:layout_marginLeft="@dimen/dimen15dp"-->
+<!--                android:layout_marginTop="@dimen/dimen20dp"-->
+<!--                android:layout_marginRight="@dimen/dimen15dp"-->
+<!--                android:layout_marginBottom="@dimen/dimen10dp"-->
+<!--                android:background="@color/divider" />-->
+
+
+<!--            <Button-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/dimen45dp"-->
+<!--                android:background="@drawable/btn_add_image"-->
+<!--                android:layout_margin="@dimen/dimen10dp"/>-->
+
+
+
+
+
+<!--            <Button-->
+<!--                android:id="@+id/addimgfromcammera"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/dimen45dp"-->
+<!--                android:background="@drawable/btn_add_image"-->
+<!--                android:layout_margin="@dimen/dimen10dp"/>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/uploadImage"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:padding="@dimen/dimen10dp"-->
+<!--            android:textColor="@color/Textblack"-->
+<!--            android:visibility="gone" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/empty_list_txt"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center"-->
+<!--            android:padding="@dimen/dimen50dp"-->
+<!--            android:text="@string/no_action_plan_available_yet"-->
+<!--            android:textColor="@color/Textblack"-->
+<!--            android:textSize="@dimen/Text"-->
+<!--            android:visibility="gone" />-->
+
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:id="@+id/btnPickImage"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginRight="@dimen/dimen20dp"-->
+<!--            android:layout_marginBottom="@dimen/dimen40dp"-->
+<!--            android:backgroundTint="@color/TextBlue"-->
+<!--            android:clickable="true"-->
+
+<!--            app:srcCompat="@drawable/flotactionbutton"-->
+<!--            tools:ignore="MissingConstraints" />-->
+
+
+
+
+<!--    </RelativeLayout>-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/myImage"-->
+<!--            android:layout_margin="@dimen/dimen10dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/uploadImageList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txt_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/dimen50dp"
+            android:text="@string/no_action_plan_available_yet"
+            android:textColor="@color/Textblack"
+            android:textSize="@dimen/Text"
+            android:visibility="visible" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnPickImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/dimen20dp"
+            android:layout_marginBottom="@dimen/dimen40dp"
+            android:backgroundTint="@color/TextBlue"
+            android:clickable="true"
+            app:srcCompat="@drawable/flotactionbutton"
+            tools:ignore="MissingConstraints" />
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>

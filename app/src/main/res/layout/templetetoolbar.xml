@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:src="@drawable/arrow" />
+
+            <TextView
+                android:id="@+id/Back"
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:text="@string/back"
+                android:paddingStart="@dimen/dimen10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/TextBlue"
+                android:textStyle="bold"
+                android:textSize="@dimen/Text" />
+
+            <TextView
+
+                android:id="@+id/txtTitletemplete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/dimen2dp"
+                android:text=""
+                android:textSize="@dimen/HeadingText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/Textblack"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/sharedtemp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingStart="@dimen/dimen50dp"
+                android:layout_gravity="end"
+                android:src="@drawable/share" />
+
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>

@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- select_language -->
+
+
+    <string name="select_language">Vælg sprog</string>
+
+    <string name="english">Engelsk</string>
+
+    <string name="danish">Dansk</string>
+
+    <!-- comman for all language -->
+
+
+    <string name="next">Næste</string>
+
+    <string name="back">Tilbage</string>
+
+    <!-- placeholder -->
+
+
+    <string name="firstname">Fornavn *</string>
+
+    <string name="lastname">Efternavn *</string>
+
+    <string name="emailid">E-mail-id *</string>
+
+    <string name="mobile_number">Mobilnummer</string>
+
+    <string name="confrirm_password">Bekræft kodeord</string>
+
+    <!-- sign-In -->
+
+
+    <string name="welcome">Velkommen!</string>
+
+    <string name="let_s_get_you_signed_in">Lad os få dig logget ind!</string>
+
+    <string name="email">E-mail</string>
+
+    <string name="password">Adgangskode</string>
+
+    <string name="forgot_password">Glemt kodeord?</string>
+
+    <string name="sign_in">Log ind</string>
+
+    <string name="don_t_have_an_account">Har du ikke en konto?</string>
+
+    <string name="sign_up">- Tilmeld dig</string>
+
+
+    <!-- sign-Up -->
+
+
+    <string name="please_provide_the_details_for">Angiv venligst detaljerne for</string>
+
+    <string name="your_new_account">din nye konto.</string>
+
+    <string name="by_creating_your_account_you_agree_with_to">Ved at oprette din konto accepterer du vores</string>
+
+    <string name="terms_conditions">Vilkår og Betingelser</string>
+
+    <string name="bsign_up">Tilmelde</string>
+
+    <!-- verify -->
+
+
+    <string name="resend">Send igen</string>
+
+    <string name="enter_verification_code">indsæt verifikationskode</string>
+
+    <!-- verify success -->
+
+
+    <string name="verify">Verificere</string>
+
+    <string name="thank_you">mange tak</string>
+
+    <string name="you_have_successfully_registered">Du har registreret dig med succes!</string>
+
+    <!-- Profile profile -->
+
+
+    <string name="complete_your_profile">Fuldfør din profil(1/3)</string>
+    <string name="complete_your_profile2">Fuldfør din profil(2/3)</string>
+    <string name="complete_your_profile3">Fuldfør din profil(3/3)</string>
+
+    <string name="Frank_M_Browning">Frank M. Browning</string>
+
+    <string name="profile_info">Profil info</string>
+
+    <string name="medical_info">Medicinsk info</string>
+
+    <string name="lifestyle_info">Livsstil info</string>
+
+    <!-- Profile profile -->
+
+
+    <string name="user_id">User ID</string>
+
+    <string name="name">Navn</string>
+
+    <string name="enter_your_mobile_no">Indtast dit mobilnr</string>
+
+    <string name="enter_your_emmergency_mobile_no">Indtast dit nødtelefonnummer</string>
+
+    <string name="select_your_age">Indtast din alder (år)</string>
+
+    <string name="select_your_height">Indtast din højde (cm)</string>
+
+    <string name="select_your_weight">Indtast din vægt (kg)</string>
+
+    <string name="select_your_genderr">Vælg dit køn</string>
+
+    <string name="enter_your_address">Indtast din adresse</string>
+
+    <string name="select_your_ethnicity">Vælg din etnicitet</string>
+
+    <string name="specify">Hvis ja, angiv hvilken?</string>
+
+    <string name="enter">Gå ind</string>
+
+    <!-- profile medical -->
+
+
+    <string name="my_diagnosis">Min diagnose</string>
+
+    <string name="Asthma">Astma</string>
+
+    <string name="COPD">KOL</string>
+
+    <string name="other_than_Asthma_or_COPD_do_you_have_any_medical_condition_diagnosed">Har du en diagnosticeret medicinsk tilstand udover astma eller KOL?</string>
+
+    <string name="Yes">Ja</string>
+
+    <string name="No">Nej</string>
+
+    <string name="are_you_on_any_regular_medication_for_the_above_mentioned_condition">Tager du regelmæssig medicin for ovennævnte tilstand?</string>
+
+    <string name="select_your_symptoms">Vælg dine symptomer</string>
+
+    <string name="Select">Vælg</string>
+
+    <string name="select_your_triggers">Vælg dine udløsere</string>
+
+    <string name="enter_other_observation">Indtast anden observation</string>
+
+    <!-- profile lifestyle -->
+
+
+    <string name="are_you_were_a_smoker">Var/du ryger?</string>
+
+    <string name="are_you_were_a_tobacco_or_other_nicotine_user">Er/var du tobaks- eller anden nikotinbruger?</string>
+
+    <string name="how_often_do_you_exercise_or_go_for_walking">Hvor ofte træner du eller går en tur?</string>
+
+    <string name="Save">Gem</string>
+
+    <!-- Dashbord -->
+
+
+    <string name="good_morning_Frank">Velkommen </string>
+
+    <string name="add_your_daily_zone">Tilføj din daglige zone</string>
+
+    <string name="all_action_plans">Alle handlingsplaner</string>
+
+    <string name="green">Grøn</string>
+
+    <string name="yellow">Gul</string>
+
+    <string name="Red">Rød</string>
+
+    <string name="Weather">Vejret</string>
+
+    <string name="air_quality">Luftkvalitet</string>
+
+    <string name="allergy_outlook">Allergi Outlook</string>
+
+    <string name="daily_tips">Daglige tips</string>
+
+    <string name="wear_weather_appropriate_clothing">Bær tøj, som passer til vejret</string>
+
+    <string name="take_your_preventor_inhaler_with_you">Tag din forebyggende inhalator med dig</string>
+
+    <string name="current_weather">Aktuelt vejr</string>
+
+    <string name="current_air_quality">Nuværende luftkvalitet</string>
+
+    <!-- Forgot Password -->
+
+
+    <string name="reset_your_password">Nulstil din adgangskode</string>
+
+
+
+    <string name="enter_registered_email">Indtast registreret e-mail</string>
+
+    <string name="send">Send</string>
+
+    <string name="back_to_Sign_In">Tilbage til Log ind</string>
+
+    <string name="Resend">Sende igen</string>
+
+    <string name="Reset">Nulstil</string>
+
+    <string name="your_password_has_been">Dit kodeord har været</string>
+
+    <string name="successfully_reset">nulstillet med succes</string>
+
+    <string name="back_to_sign_in">Tilbage til Log ind</string>
+
+
+
+    <string-array name="Gender">
+
+        <item> Vælg</item>
+
+        <item>Mand</item>
+
+        <item>Kvinde</item>
+
+        <item>Foretrækker ikke at sige</item>
+
+    </string-array>
+
+
+    -<string-array name="smoker">
+
+    <item> Vælg</item>
+
+    <item>Fast</item>
+
+    <item>Lejlighedsvis</item>
+
+    <item>Eks-ryger</item>
+
+</string-array>
+
+
+    -<string-array name="smoker1">
+
+    <item> Vælg</item>
+
+    <item>Regelmæssig</item>
+
+    <item>Lejlighedsvis</item>
+
+    <item>Eks-bruger</item>
+
+</string-array>
+
+
+    -<string-array name="smokerfrequency">
+
+    <item>Vælg</item>
+
+    <item>Hver dag</item>
+
+    <item>Nogle Ugens Dage</item>
+
+    <item>En gang om ugen</item>
+
+    <item>Aldrig</item>
+
+</string-array>
+
+
+
+    <string name="add_my_action_plan">Min handlingsplan</string>
+    <string name="scan_qr_code">Scan QR-kode</string>
+    <string name="about_Sia_App">Om Sia App</string>
+    <string name="Logout">Log ud</string>
+
+
+
+
+    <string name="version">Version-0.0.60</string>
+
+    <string name="great_job">Godt arbejde!</string>
+    <string name="you_have_successfully_recorded_your_symptoms_and_lung_test_values">Du har  med success registreret dine symptomer og lungetestværdier</string>
+    <string name="my_daily_zone">Min daglige zone</string>
+    <string name="my_daily_zone_is">Min daglige zone er</string>
+    <string name="Daily_Zone">Daglig zone</string>
+    <string name="My_Action_Plan">Min handlingsplan</string>
+    <string name="add_action_plan">Tilføj handlingsplan</string>
+    <string name="green_zone">Grøn Zone</string>
+    <string name="add_daily_medications">Tilføj daglig medicin</string>
+    <string name="enter_medicine_name">Indtast medicinnavn</string>
+    <string name="enter_number_of_puffs">Indsæt antal pust</string>
+    <string name="when_to_take">Hvornår tages medicinen</string>
+    <string name="morning">Morgen</string>
+    <string name="Afternoon">Eftermiddag</string>
+    <string name="Evening">Aften</string>
+    <string name="Night">Nat</string>
+    <string name="Add_More">+Tilføj mere</string>
+    <string name="Yellow_Zone">Gul Zone</string>
+    <string name="Red_Zone">Rød Zone</string>
+    <string name="ok1">Okay</string>
+    <string name="Action_Plan_added_successfully">Handlingsplan tilføjet med succes</string>
+    <string name="my_readings">Mine resultater</string>
+    <string name="mini_lung_function_test">Mini Lung Function Test</string>
+    <string name="Peak_Flow_Meter">Peak Flow Meter</string>
+    <string name="Spirometer">Spirometer</string>
+    <string name="my_symptoms">Mine symptomer</string>
+    <string name="Select_one_of_the_following">Vælg en af følgende:</string>
+    <string name="FEV1">FEV1(L) *</string>
+    <string name="FVC">FVC(L)</string>
+    <string name="SpO2">SpO2(%)</string>
+    <string name="Temperature">Temperatur(F)</string>
+    <string name="Pulse_Rate">Pulsfrekvens(bpm)</string>
+    <string name="PEF">PEF(%) *</string>
+    <string name="profile">Profil</string>
+    <string name="Select_Zone">Vælg zone</string>
+    <string name="trouble_walking_and_talking_due_to_shortness_of_breath">Problemer med at gå og tale på grund af åndenød?</string>
+    <string name="your_lips_or_fingernails_are_turning_blue">Bliver dine læber eller negle blå?</string>
+    <string name="call_Hospital_Emergency_1813">Ring 1813 til akutmodtagelse på hospitalet.</string>
+    <string name="if_you_are_still_in_Red_Zone_after_15minutesoftakingrelievermedicationnotabletoreachhospitalemergency"><![CDATA[Hvis du stadig er i den røde zone efter 15 minutters indtagelse af aflastende medicin og ikke er i stand til at nå hospitalets nødsituation]]></string>
+    <string name="call_for_an_Ambulance_112">Ring 112 efter en ambulance.</string>
+
+
+
+
+    <string name="daily">Daglig</string>
+    <string name="rescue">Redde</string>
+    <string name="your_oral_corsticosteroid_tablet">Din orale kortikosteroidtablet</string>
+    <string name="oral_Corticosteroid_tablet">orale kortikosteroidtablet</string>
+    <string name="go_to_Action_Plan">Gå til handlingsplan</string>
+    <string name="Add_More_Medicine">+Tilføj mere medicin</string>
+    <string name="Your_medication_is_added_for">Din medicin er tilføjet for grøn zone..</string>
+    <string name="addMedications">Tilføj medicin</string>
+    <string name="created_by_myself">Tilføjet af mig selv</string>
+    <string name="created_by_Dr">Tilføjet af</string>
+    <string name="no_action_plan_available_yet">Ingen handlingsplan tilgængelig endnu.</string>
+    <string name="no_action_plan_added_yet">Ingen handlingsplan tilføjet endnu</string>
+    <string name="no_plan_available_yet">Ingen handlingsplan tilgængelig endnu.</string>
+    <string name="medications">Medicin</string>
+    <string name="SelectLanguage">Vælg sprog</string>
+    <string name="Verify_Email_ID">Bekræft e-mail-id</string>
+    <string name="Daily_zone_isnotaddedyet">Daglig zone er ikke tilføjet endnu</string>
+    <string name="Date">4 March 2022</string>
+    <string name="setdate">Set Date</string>
+    <string name="enter_Number_Dose">Indtastdosis (mg)</string>
+
+
+    <string name="InternetConnection">Internetforbindelse</string>
+    <string name="PleaseCheckYourInternetConnection">Tjek venligst din internetforbindelse</string>
+    <string name="InvalidEmailId">ugyldigt e-mail-id</string>
+    <string name="EnterPassword">Indtast adgangskode</string>
+    <string name="InvalidEmailorpassword">Ugyldig email eller kodeord</string>
+    <string name="Loginfailed">Login mislykkedes</string>
+    <string name="EnterEmailId">Indtast e-mail-id</string>
+    <string name="Invalidcode">Ugyldig adgangskode</string>
+    <string name="EnterConfirmPassword">Bekræft adgangskode</string>
+    <string name="PasswordandConfirmPassworddoesnotmatch">Adgangskode og Bekræft adgangskode stemmer ikke overens</string>
+    <string name="OTPhasbeensenttoyoumailinbox">bekræftelseskode er sendt til din e-mail</string>
+    <string name="Permissionalreadygranted">Tilladelse allerede givet</string>
+    <string name="Pleaseselectatleastonezone">Vælg venligst mindst én zone</string>
+    <string name="EnterMedicineName">Indtast navn på medicin</string>
+    <string name="EnterNumberofDose">Indtast  dosis (mg)</string>
+    <string name="EnterNumberofPuffs">Indtast antal pust</string>
+    <string name="Pleaseselectatleastoneofthem">Vælg venligst mindst én af dem</string>
+    <string name="Enteryourage">Indtast din alder</string>
+    <string name="Enteryourheight">Indtast din højde</string>
+    <string name="Enteryourweight">Indtast din vægt</string>
+    <string name="Selectyourgender">Vælg dit køn</string>
+    <string name="Enteryouraddress">Indtast din adresse</string>
+    <string name="Selectyourethnicity">Vælg din etnicitet</string>
+    <string name="PleaseselectyourDiagnosis">Vælg venligst din diagnose</string>
+    <string name="Pleaseselectsymptoms">Vælg venligst symptomer</string>
+    <string name="PleaseselectTriggers">Vælg venligst triggere</string>
+    <string name="Selectyourexercise">Vælg frekvens for træning</string>
+    <string name="EnterFirstName">Indtast fornavn</string>
+    <string name="EnterLastName">Indtast efternavn</string>
+    <string name="Passwordscontainmin8charactersCapitalLetterNumberSpecialCharacter">Adgangskoder indeholder mindst 8 tegn, stort bogstav, tal og specialtegn</string>
+    <string name="Youraccountcreatedsuccessfully">Din konto er nu blevet oprettet</string>
+    <string name="Anaccountwiththegivenemailalreadyexists">En konto med den angivne e-mail findes allerede</string>
+    <string name="InvalidOTP">Ugyldig bekræftelseskode</string>
+    <string name="OTPhasbeensenttoyourmailinbox">Bekræftelseskode er blevet sendt til din indbakke</string>
+    <string name="Home">HJEM</string>
+    <string name="Dailydiary">Dagbog</string>
+    <string name="Profile">Profil</string>
+    <string name="no_cough_wheeze_chest_tightness_or_shortness_of_breath">Ingen hoste, hvæsen, trykken for brystet eller åndenød</string>
+    <string name="can_do_usual_activities">Kan udføre sædvanlige aktiviteter</string>
+    <string name="slept_well">Sovet godt</string>
+    <string name="cough_wheeze_chest_tightness_or_shortness_of_breath">Hoste, hvæsen, trykken for brystet eller åndenød</string>
+    <string name="can_do_some_but_not_all_usual_activities">Kan lave nogle, men ikke alle, sædvanlige aktiviteter</string>
+    <string name="sleep_was_disturbed_due_to_asthma_copd">Søvnen var forstyrret på grund af astma/KOL</string>
+    <string name="increased_temperature_phlegm_or_change_in_phlegm_colour_odour_thickness">Øget temperatur, slim dannelse eller ændring i slim (farve, lugt, tykkelse)</string>
+    <string name="very_short_of_breath_or">Meget åndenød, eller</string>
+    <string name="quick_relief_medicines_have_not_helped_cannot_do_usual_activities_or">Hurtigvirkende medicin har ikke hjulpet, Kan ikke lave sædvanlige aktiviteter eller</string>
+    <string name="symptoms_are_same_or_got_worse_after_24_hours_in_yellow_zone">Symptomerne er de samme eller blev værre efter 24 timer i gul zone</string>
+    <string name="code_to_email_inbox">En bekræftelses-e-mail er blevet sendt til din indbakke..</string>
+    <string name="green_zone_doing_well">Grøn Zone: Har det godt</string>
+    <string name="yellow_zone_feeling_worse">Gul zone: Føler mig værre tilpas</string>
+    <string name="red_zone_medical_alert">Rød zone: Medicinsk alarm !</string>
+    <string name="select_medication_Type">Vælg medicintype</string>
+    <string name="a_verification_code_has_been_sent_to_your_email_account">En bekræftelseskode er blevet sendt til dit e-mail-id -</string>
+    <string name="YouhaventaddedanymedicationsforGreenzoneyet">Du har ikke tilføjet nogen medicin til Green zone endnu!</string>
+    <string name="Youhaventaddedanymedicationsfor">Du har ikke tilføjet nogen medicin til</string>
+    <string name="Greenzoneyet">Grøn zone endnu !</string>
+    <string name="Yellowzoneyet">Gul zone endnu !</string>
+    <string name="Redzoneyet">Rød zone endnu!</string>
+    <string name="selected_green_zone_symptoms">Du har valgt Green Zone Symptomer</string>
+    <string name="selected_yellow_zone_symptoms">Du har valgt Yellow Zone Symptomer</string>
+    <string name="selected_red_zone_symptoms">Du har valgt Red Zone Symptomer</string>
+    <string name="PleaseEnterDiagnoses">Indtast venligst diagnoser</string>
+    <string name="PleaseEnteryourregularmedication">Indtast venligst din almindelige medicin</string>
+    <string name="PleaseEnterothersymp">Indtast venligst andre symptomer</string>
+    <string name="DoingWell"> Jeg har det godt :</string>
+    <string name="FeelingWorse"> Jeg føler mig værre tilpas: </string>
+
+    <string name="MedicalAlert"> Medicinsk alarm :</string>
+    <string name="permission_required">Camera access is required to display the camera preview.</string>
+    <string name="permission_granted">Permission is granted. You can use the camera now</string>
+    <string name="EnterOtp">Indtast Bekræftelseskode</string>
+    <string name="Thisemailisnotregistered">Denne e-mail er ikke registreret !</string>
+    <string name="Changeapplcationlang">Skift  sprog</string>
+    <string name="YouhavechosenGreenZone">Du har valgt Grøn Zone. Følg venligst din handlingsplan i overensstemmelse hermed.</string>
+    <string name="YouhavechosenYellowzone">Du har valgt Yellow Zone. Følg venligst din handlingsplan i overensstemmelse hermed.</string>
+    <string name="YouhavechosenRedzone">Du har valgt Red Zone. Følg venligst din handlingsplan i overensstemmelse hermed.</string>
+    <string name="PleaseSelectMedicationType">Vælg venligst medicintype</string>
+
+    <string name="Areyousure">Er du sikker</string>
+    <string name="Doyouwanttocall">Vil du ringe -</string>
+    <string name="pleaseselectothersymptoms">vælg venligst et andet symptomfelt</string>
+    <string name="pleaseenterspeficyfiled">Indtast venligst Angiv felt</string>
+
+    <string name="your_daily_medications"><u>Din daglige medicin</u></string>
+    <string name="your_rescue_medications"><u>Din redningsmedicin</u></string>
+    <string name="your_steroid_medications"><u>Din steroidmedicin</u></string>
+    <string name="cancle">afbestille</string>
+    <string name="ClearAll">Slet alt</string>
+    <string name="Youwillreceiveaverificationcodeviaemail">Du vil modtage en bekræftelseskode via e-mail</string>
+    <string name="EnterPEF">Indtast PEF</string>
+    <string name="ENTERFEV1">Indtast FEV1</string>
+    <string name="Areyousureyouwanttologout">Er du sikker på at du vil logge ud?</string>
+    <string name="Enteryouremergencynumber">Indtast nødnummer</string>
+    <string name="requriedplusesign">Indtast venligst telefonnummer med + landekode</string>
+    <string name="requriedplusesignemergency">Indtast venligst nødtelefonnummer med + landekode</string>
+    <string name="skip"><u>Springe</u></string>
+    <string name="emergency_n_contact_cannot_be_same">Nød- og kontaktnummer bør ikke være det samme</string>
+    <string name="none">Ingen</string>
+    <string name="please_enter_ethnicity">Indtast etnicitet</string>
+    <string name="please_select_below_field">Vælg venligst feltet nedenfor</string>
+    <string name="action_plan_template">Handlingsplan skabelon</string>
+    <string name="upload_action_plan">Upload handlingsplan</string>
+    <string name="gallery">Galleri</string>
+    <string name="camera">Kamera</string>
+    <string name="added_by_myself">Tilføjet af mig selv</string>
+    <string name="view_action_plan">Se handlingsplan</string>
+    <string name="delete">Slet</string>
+    <string name="ActionPlanTemplate">Handlingsplan skabelon</string>
+    <string name="share">Del</string>
+    <string name="exercise">Dyrke motion</string>
+
+    <string name="have_you_taken_your_medicines_as_per_your_medicine_plan">\u25CF Har du taget din medicin i henhold til din medicinplan?</string>
+
+
+
+    <string name="Reminders">Påmindelser</string>
+    <string name="Noreminderaddedyet">Ingen påmindelse tilføjet endnu.</string>
+    <string name="Selecttitle">Vælg Titel</string>
+    <string name="Selecttime">Vælg Tid</string>
+
+
+    <string name="Repeats">Gentager</string>
+    <string name="TIME">04.15 AM</string>
+
+
+    <string name="YourActionReminderAddedSucussesfully">Din handlingspåmindelse blev tilføjet</string>
+    <string name="Medicationreminder">Medicinpåmindelse</string>
+
+    <string name="exercise_plan">Træningsplan</string>
+    <string name="your_action_plan_is_added_sucussesfully">Din handlingsplan er tilføjet succesfuldt.</string>
+    <string name="your_daily_dairy_is_updated">Din daglige dagbog er opdateret</string>
+    <string name="enter_medicine_name_that_you_missed">Indtast medicinnavn, som du gik glip af</string>
+    <string name="select_number_of_puffs_you_missed">Vælg Antal pust, du gik glip af</string>
+    <string name="select_time_that_you_missed">Vælg det tidspunkt, du gik glip af</string>
+    <string name="did_you_follow_your_exercise_plan">\u25CF Fulgte du din træningsplan?</string>
+    <string name="Followed">fulgte</string>
+    <string name="NotFollowed">Ikke fulgt</string>
+
+
+    <string name="UpdateyoudairyforMedication">Opdater dit mejeri for medicin</string>
+    <string name="UpdateyoudairyforExercise">Opdater dit mejeri til motion</string>
+    <string name="medication_reminder">Medicinpåmindelse</string>
+    <string name="Report">Rapport</string>
+    <string name="Updateyourdailydairy">Opdater dit daglige mejeri</string>
+    <string name="Doyoufollowyour">Følger du din?</string>
+    <string name="Medication">\u25CF Medicin</string>
+    <string name="Exercise">\u25CF Dyrke motion</string>
+    <string name="Diet">\u25CF Kost</string>
+    <string name="YourDailyDiaryAddeSuccessfully">Din daglige dagbog blev tilføjet.</string>
+    <string name="Addreminderstofollowactionplan">Tilføj påmindelser om at følge handlingsplanen.</string>
+    <string name="Reports">Rapporter</string>
+    <string name="Medication1">Medicin</string>
+    <string name="Exercise1">Dyrke motion</string>
+    <string name="Diet1">Kost</string>
+    <string name="SelectDate">Vælg dato</string>
+    <string name="TotalnootimeyouareinGreenzone">Samlet antal dage, hvor du var i den grønne zone </string>
+    <string name="TotalnooftimeyouareinYellowzone">Samlet nr. af tid er du i gul zone</string>
+    <string name="TotalnootimeyouareinRedzone">Samlet nr. tiden er du i den røde zone</string>
+    <string name="Totalnooftimeyoufollowed">Samlet nr. tid du fulgte</string>
+    <string name="Totalnooftimeyounotfollowed">Samlet nr. tid du ikke fulgte</string>
+    <string name="From">Fra</string>
+    <string name="To">Til</string>
+    <string name="Generatereport">Generer rapport</string>
+    <string name="dategreatertahnfrom">dato er større end i dag</string>
+    <string name="Nodataaddedyet">Ingen data tilføjet endnu</string>
+    <string name="Totalnooftimeyoufolloweddiet">Samlet antal dage du fulgte diæt</string>
+    <string name="Totalnooftimeyounotfolloweddiet">Samlet antal dage du gik glip af diæt</string>
+    <string name="TotalnooftimeyounotfollowedMedication">Samlet antal dage du fulgte medicin</string>
+    <string name="TotalnooftimeyoufollowedMedication">Samlet antal dage du gik glip af medicin</string>
+    <string name="Asthmatemplet">Astma skabelon</string>
+    <string name="COPDtemplet">KOL skabelon</string>
+    <string name="ReportFrom">Rapport fra</string>
+    <string name="camerapermissiongranted">Kameratilladelse er givet</string>
+    <string name="camerapermissiondenied">Kameratilladelse nægtet</string>
+    <string name="storagepermissiongranted">Opbevaringstilladelse er givet</string>
+    <string name="storagepermissiondenied">Lagringstilladelse nægtet</string>
+    <string name="medicationreminder">Medicinpåmindelse</string>
+    <string name="exercisereminder">Påmindelse om træning</string>
+    <string name="dietreminder">Kost påmindelse</string>
+    <string name="reminderdeletedsuccesssfully">Påmindelsen blev slettet</string>
+    <string name="pleaseselectabovetitle">Vælg mindst én af ovenstående titler</string>
+    <string name="patienthasreminder">Patienten har allerede en påmindelse</string>
+    <string name="locationpermission">Location Permission</string>
+    <string name="pleaseprovidelocationaccess">Please provide location access</string>
+    <string name="latitudeBabel">Latitude</string>
+    <string name="longitudeBabel">Longitude</string>
+    <string name="Theairqualityisidealformosindividualsenjoyyournormaloutdooractivities">Luftkvaliteten er ideel for de fleste individer, nyd dine normale udendørsaktiviteter</string>
+    <string name="refresh">Opdater</string>
+    <string name="Temperatur">Temperatur</string>
+    <string name="wind">Vind</string>
+    <string name="Humidity">Fugtighed</string>
+    <string name="TreePollen">Træpollen</string>
+    <string name="GrassPollen">Græspollen</string>
+    <string name="RagweedPollen">Ambrosie-pollen</string>
+    <string name="location">Beliggenhed</string>
+    <string name="PleasegotoSettingsandturnonthepermissions">Gå til Indstillinger og slå tilladelserne til</string>
+
+
+    <string name="Edit">Redigere</string>
+    <string name="Todayweather">Dagens vejr</string>
+    <string name="AirqualityissatisfactoryAirpollutionposeslittleornorisk">Luftkvaliteten er tilfredsstillende. Luftforurening udgør ringe eller ingen risiko.</string>
+    <string name="AirqualityisacceptableYouneedtoprotectyourselfmakesureusethprotectivemask">Luftkvaliteten er acceptabel. Du skal beskytte dig selv, sørg for at bruge den beskyttende maske</string>
+    <string name="AirqualityisunhealthyStayindoorsifyoucanwiththewindowsanddoorsclosed"> Luftkvaliteten er usund. Bliv indendørs, hvis du kan, med vinduer og døre lukkede.</string>
+
+
+    <string name="you_cannot_add_daily_dairy_for_future_date">Du kan ikke tilføje daglige mejeriprodukter til fremtidig dato</string>
+
+    <string name="lastnameviwthval">Indtast tegn i efternavn</string>
+    <string name="firstnameval">Indtast tegn i fornavn</string>
+
+
+    <string name="Weatheronbording">Vejr</string>
+    <string name="Getcurrentweatherupdatesonbording">Få aktuelle vejropdateringer</string>
+    <string name="DailyZoneonbording">Daglig zone</string>
+    <string name="Checkyourdailyzonehereonbording">Tjek din daglige zone her</string>
+    <string name="ActionPlanonbording">Handlingsplan</string>
+    <string name="Youcanvieworcreateyouractionplanhereonbording">Du kan se eller oprette din handlingsplan her</string>
+    <string name="AirQualityonbording">Luftkvalitet</string>
+    <string name="Checairqualityheretoprotectyoufromunhealthyorpollutedaironbording">Tjek luftkvaliteten her for at beskytte dig mod usund eller forurenet luft</string>
+    <string name="AllergyOutlookonbordin">Allergi Outlook</string>
+    <string name="Checkoutyourlocalallergyoutlookheeonbordin">Tjek dit lokale allergisyn her</string>
+    <string name="Howtouse">"How to use "</string>
+    <string name="AddDevice">Add Device</string>
+    <string name="PleasechoosethetypeofFindAirONEdevicethatyouwanttoconnectwith">Please choose the type of FindAir ONE device that you want to connect with</string>
+    <string name="FindAirONE">FindAir ONE</string>
+    <string name="Foruswithyourmedication">For use with your medication</string>
+    <string name="Blue">Blue</string>
+    <string name="PleaseenteraregulermedicationthatyouwouldliketousewithfindAirONERed">Please enter a reguler medication that you would like to use with findAir ONE Red</string>
+    <string name="EnterMedicationName">Enter Medication Name</string>
+    <string name="Activateyourdevice">Activate your device</string>
+    <string name="BeforeconnectingpleaseactivateyourFindAirdevicebyclickingitonce">Before connecting please activate your FindAir device by clicking it once</string>
+    <string name="Howtoconnect">How to connect ?</string>
+    <string name="InordertoestablishaconnecttuionyouneedtoplaceyouractivateddeviceinthemiddleofyourphonescreenandpressConnect">In order to establish a connecttuion,  you need to place your activated device in the middle of your phone screen and press Connect.</string>
+    <string name="connect">connect</string>
+    <string name="PlaceFindAirONEdeviceinthecircleabove">PlaceFindAir ONE device in the circle above</string>
+    <string name="Searchingforthedevice">Searching For The Decives</string>
+
+</resources>
+

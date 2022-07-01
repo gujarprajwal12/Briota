@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Front_End.UI.VerifySuccessActivity">
+
+
+
+    <include layout="@layout/blanktoolbar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen2dp"
+        android:background="@color/divider"
+        android:backgroundTint="@color/divider"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+
+        <ImageView
+            android:layout_marginTop="@dimen/dimen80dp"
+            android:layout_gravity="center"
+            android:layout_width="138dp"
+            android:layout_height="138dp"
+            android:src="@drawable/ok1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen10dp"
+            android:gravity="center"
+            android:text= "@string/thank_you"
+            android:textColor="@color/Textblack"
+            android:textStyle="bold"
+            android:textSize="@dimen/Text" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen10dp"
+            android:gravity="center"
+            android:text="@string/you_have_successfully_registered"
+            android:textColor="@color/Textblack"
+            android:textSize="@dimen/Text" />
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnsuccess"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen45dp"
+            android:layout_marginBottom="@dimen/dimen20dp"
+            android:layout_marginTop="@dimen/dimen50dp"
+            android:background="@drawable/buttonshape"
+            android:text="@string/sign_in"
+            android:layout_marginLeft="@dimen/dimen5dp"
+            android:layout_marginRight="@dimen/dimen5dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/Button_Background"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

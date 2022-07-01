@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Front_End.UI.FindAirChooseMedication">
+
+    <include layout="@layout/toolbar"></include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen2dp"
+        android:background="@color/divider"
+        android:backgroundTint="@color/divider"/>
+
+    <LinearLayout
+        android:id="@+id/findairmedicationlinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/PleaseenteraregulermedicationthatyouwouldliketousewithfindAirONERed"
+        android:textColor="@color/Textblack"
+        android:textSize="@dimen/Text"
+        android:padding="@dimen/dimen10dp"
+        android:gravity="center"
+        ></TextView>
+
+
+
+    <TextView
+        android:layout_marginLeft="@dimen/dimen10dp"
+        android:layout_marginTop="@dimen/dimen50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EnterMedicationName"
+        android:textStyle="bold"
+        android:textColor="@color/Textblack"
+        android:textSize="@dimen/Text">
+
+    </TextView>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen51dp"
+        android:layout_marginTop="@dimen/dimen5dp"
+        android:layout_marginBottom="@dimen/dimen5dp"
+        android:background="@drawable/edit_text_selector"
+        android:focusable="true"
+        android:hint="Enter"
+        android:inputType="text"
+        android:paddingLeft="@dimen/dimen15dp"
+        android:textColor="@color/Textblack"
+        android:textColorHint="@color/Placeholder" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonFindAirMedication"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen45dp"
+            android:layout_marginBottom="@dimen/dimen10dp"
+            android:layout_marginTop="@dimen/dimen50dp"
+            android:background="@drawable/buttonshape"
+            android:text="@string/next"
+            android:layout_marginLeft="@dimen/dimen5dp"
+            android:layout_marginRight="@dimen/dimen5dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/Button_Background"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/findairscrren1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen50dp"
+            android:src="@drawable/findairstep1">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Activateyourdevice"
+            android:textColor="@color/Textblack"
+            android:textSize="@dimen/Text"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dimen20dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BeforeconnectingpleaseactivateyourFindAirdevicebyclickingitonce"
+            android:textColor="@color/Placeholder"
+            android:textSize="@dimen/Text"
+            android:gravity="center"
+            android:padding="@dimen/dimen10dp"
+            android:layout_marginTop="@dimen/dimen20dp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonFindAirstep1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen45dp"
+                android:layout_marginBottom="@dimen/dimen10dp"
+                android:layout_marginTop="@dimen/dimen50dp"
+                android:background="@drawable/buttonshape"
+                android:text="@string/next"
+                android:layout_marginLeft="@dimen/dimen5dp"
+                android:layout_marginRight="@dimen/dimen5dp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/Button_Background"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/findairscreen2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen50dp"
+            android:src="@drawable/findairsetp2">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Howtoconnect"
+            android:textColor="@color/Textblack"
+            android:textSize="@dimen/Text"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dimen20dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/InordertoestablishaconnecttuionyouneedtoplaceyouractivateddeviceinthemiddleofyourphonescreenandpressConnect"
+            android:textColor="@color/Placeholder"
+            android:textSize="@dimen/Text"
+            android:gravity="center"
+            android:padding="@dimen/dimen10dp"
+            android:layout_marginTop="@dimen/dimen20dp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonFindAirstep2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen45dp"
+                android:layout_marginBottom="@dimen/dimen10dp"
+                android:layout_marginTop="@dimen/dimen50dp"
+                android:background="@drawable/buttonshape"
+                android:text="@string/next"
+                android:layout_marginLeft="@dimen/dimen5dp"
+                android:layout_marginRight="@dimen/dimen5dp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/Button_Background"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

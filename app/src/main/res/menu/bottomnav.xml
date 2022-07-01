@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="@string/Home"
+            app:cnb_iconColor="@color/TextBlue"/>
+
+        <item
+            android:id="@+id/dailydiary"
+            android:icon="@drawable/dailydiary"
+            android:title="@string/Dailydiary"
+            app:cnb_iconColor="@color/TextBlue"/>
+        <item
+            android:id="@+id/actionplan"
+            android:icon="@drawable/actionplan"
+            android:title="ActionPlan"
+            app:cnb_iconColor="@color/TextBlue" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="@string/Profile"
+            app:cnb_iconColor="@color/TextBlue" />
+
+
+
+
+    </menu>
+
+
+
+
+
+
+

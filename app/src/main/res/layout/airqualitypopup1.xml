@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/currentairquality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/dimen15dp"
+        android:layout_marginLeft="@dimen/dimen2dp"
+        android:layout_marginRight="@dimen/dimen2dp"
+        android:layout_marginTop="@dimen/dimen5dp"
+        android:layout_marginBottom="@dimen/dimen5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="@dimen/dimen50dp"
+                    android:src="@drawable/airhd1"
+                    android:layout_marginLeft="@dimen/dimen1dp"
+                    android:layout_marginRight="@dimen/dimen1dp"
+                    android:padding="@dimen/dimen10dp"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/current_air_quality"
+                    android:textColor="@color/Textblack"
+                    android:textSize="@dimen/HeadingText"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1.5"/>
+
+
+
+                <ImageView
+                    android:id="@+id/btncancleairquality1"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="@dimen/dimen40dp"
+                    android:src="@drawable/icon_cancel"
+                    android:padding="@dimen/dimen10dp"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_weight="0.5"
+                    ></ImageView>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/dimen15dp"
+                android:layout_marginTop="@dimen/dimen5dp"
+                android:layout_marginRight="@dimen/dimen15dp"
+                android:layout_marginBottom="@dimen/dimen5dp"
+                android:background="@color/divider" />
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/dimen20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/air_quality_City"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/location"
+                    android:drawablePadding="5dp"
+                    android:text="Copenhagen, Denmark"
+                    android:layout_marginLeft="@dimen/dimen10dp"
+                    android:textColor="@color/Textblack"
+                    android:textSize="15sp"
+                    android:gravity="start"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/air_quality_Time"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="08:15 AM"
+                    android:gravity="end"
+                    android:layout_marginRight="@dimen/dimen20dp"
+                    android:textColor="@color/TextBlue"
+                    android:textSize="15sp"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/air_quality_Info"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Excellent"
+                    android:layout_marginLeft="@dimen/dimen20dp"
+                    android:textColor="@color/Textblack"
+                    android:textSize="15sp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/air_quality_rating"
+                    android:layout_width="@dimen/dimen0dp"
+                    android:layout_height="wrap_content"
+                    android:text="14 AQI"
+                    android:textColor="@color/TextBlue"
+                    android:textSize="15sp"
+                    android:gravity="end"
+                    android:layout_marginRight="@dimen/dimen20dp"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/forgoodairquality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/TextBlue"
+                    android:layout_marginLeft="@dimen/dimen20dp"
+                    android:textSize="14sp"
+                    android:layout_marginTop="@dimen/dimen10dp"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>

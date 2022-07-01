@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightgry">#d3d3d3</color>
+<!--    <color name = "textblue">#2179B6</color>-->
+
+
+
+
+    <color name="divider">#F2F2F2</color>
+    <color name="Headline_Black">#1C1939</color>
+
+    <color name="transparent">#F7F7F7</color>
+    <color name="text_green">#41B649</color>
+  <color name="text_red">#FF3B2C</color>
+    <color name="text_yellow">#FFC700</color>
+    <color name="faint_gray">#E1E1E1</color>
+
+    <color name="edit_disable">#F7F7F7</color>
+
+
+    <color name="Button_Background">#2179B6</color>
+
+
+<!--  new colour code -->
+    
+    <color name="background_color">#008C9C</color>
+    <color name="Textblack">#000000</color>
+    <color name="Placeholder">#8F8F8F</color>
+    <color name="TextBlue">#2179B6</color>
+
+    <color name="lightblue">#AEE4FF</color>
+
+    <color name="buttonbackfordialog">#F8F8F8EB</color>
+
+
+</resources>

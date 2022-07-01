@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Front_End.UI.ReportActivity">
+
+
+
+    <include layout="@layout/report_toolbar"></include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen2dp"
+        android:background="@color/divider"
+        android:backgroundTint="@color/divider"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/report_lay1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+   <TextView
+       android:id="@+id/from_to_txt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textColor="@color/Textblack"
+       android:layout_marginTop="@dimen/dimen20dp"
+    android:gravity="center"
+    android:textStyle="bold"
+    ></TextView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/greenzoneupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/dimen2dp"
+            android:layout_marginLeft="@dimen/dimen15dp"
+            android:layout_marginRight="@dimen/dimen20dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginTop="@dimen/dimen20dp"
+            android:layout_marginBottom="@dimen/dimen10dp"
+            app:cardCornerRadius="@dimen/dimen20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen15dp"
+                    android:text="@string/green_zone"
+                    android:textSize="@dimen/Text"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen5dp"
+                    android:textColor="@color/TextBlue"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="@dimen/dimen5dp"
+                android:layout_marginBottom="@dimen/dimen10dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen15dp"
+                    android:text="@string/TotalnootimeyouareinGreenzone"
+                    android:textSize="@dimen/Text"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:textColor="@color/Placeholder"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/greenzonecount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="20"
+                    android:layout_marginRight="@dimen/dimen15dp"
+                    android:textSize="@dimen/Text"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:textColor="@color/text_green"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/yellowzoneupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/dimen2dp"
+            android:layout_marginLeft="@dimen/dimen15dp"
+            android:layout_marginRight="@dimen/dimen20dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginTop="@dimen/dimen20dp"
+            android:layout_marginBottom="@dimen/dimen10dp"
+            app:cardCornerRadius="@dimen/dimen20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen15dp"
+                    android:text="@string/Yellow_Zone"
+                    android:textSize="@dimen/Text"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen5dp"
+                    android:textColor="@color/TextBlue"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dimen15dp"
+                        android:text="@string/TotalnooftimeyouareinYellowzone"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/Placeholder"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                    <TextView
+                        android:id="@+id/yellowzonecount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="5"
+                        android:layout_marginRight="@dimen/dimen15dp"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/text_yellow"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/redzoneupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/dimen2dp"
+            android:layout_marginLeft="@dimen/dimen15dp"
+            android:layout_marginRight="@dimen/dimen20dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginTop="@dimen/dimen20dp"
+            android:layout_marginBottom="@dimen/dimen10dp"
+            app:cardCornerRadius="@dimen/dimen20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen15dp"
+                    android:text="@string/Red_Zone"
+                    android:textSize="@dimen/Text"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen5dp"
+                    android:textColor="@color/TextBlue"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dimen15dp"
+                        android:text="@string/TotalnootimeyouareinRedzone"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/Placeholder"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                    <TextView
+                        android:id="@+id/redzonecount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="4"
+                        android:layout_marginRight="@dimen/dimen15dp"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/text_red"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exerciseupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/dimen2dp"
+            android:layout_marginLeft="@dimen/dimen15dp"
+            android:layout_marginRight="@dimen/dimen20dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginTop="@dimen/dimen20dp"
+            android:layout_marginBottom="@dimen/dimen10dp"
+            app:cardCornerRadius="@dimen/dimen20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen15dp"
+                    android:text="@string/Exercise1"
+                    android:textSize="@dimen/Text"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen5dp"
+                    android:textColor="@color/TextBlue"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dimen15dp"
+                        android:text="@string/Totalnooftimeyoufollowed"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/Placeholder"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                    <TextView
+                        android:id="@+id/exercisecountfollowed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="05"
+                        android:layout_marginRight="@dimen/dimen15dp"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/text_green"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dimen15dp"
+                        android:text="@string/Totalnooftimeyounotfollowed"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/Placeholder"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                    <TextView
+                        android:id="@+id/exercisecountunfolloed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="02"
+                        android:layout_marginRight="@dimen/dimen15dp"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/text_red"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dietupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/dimen2dp"
+            android:layout_marginLeft="@dimen/dimen15dp"
+            android:layout_marginRight="@dimen/dimen20dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginTop="@dimen/dimen20dp"
+            android:layout_marginBottom="@dimen/dimen10dp"
+            app:cardCornerRadius="@dimen/dimen20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen15dp"
+                    android:text="@string/Diet1"
+                    android:textSize="@dimen/Text"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen5dp"
+                    android:textColor="@color/TextBlue"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dimen15dp"
+                        android:text="@string/Totalnooftimeyoufolloweddiet"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/Placeholder"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                    <TextView
+                        android:id="@+id/dietcountfollowed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="05"
+                        android:layout_marginRight="@dimen/dimen15dp"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/text_green"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dimen15dp"
+                        android:text="@string/Totalnooftimeyounotfolloweddiet"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/Placeholder"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                    <TextView
+                        android:id="@+id/dietcountunfollowed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="02"
+                        android:layout_marginRight="@dimen/dimen15dp"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/text_red"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Medicationupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/dimen2dp"
+            android:layout_marginLeft="@dimen/dimen15dp"
+            android:layout_marginRight="@dimen/dimen20dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginTop="@dimen/dimen20dp"
+            android:layout_marginBottom="@dimen/dimen10dp"
+            app:cardCornerRadius="@dimen/dimen20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen15dp"
+                    android:text="@string/Medication1"
+                    android:textSize="@dimen/Text"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen5dp"
+                    android:textColor="@color/TextBlue"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dimen15dp"
+                        android:text="@string/TotalnooftimeyoufollowedMedication"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/Placeholder"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                    <TextView
+                        android:id="@+id/medicationcountfollowed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="05"
+                        android:layout_marginRight="@dimen/dimen15dp"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/text_green"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="@dimen/dimen5dp"
+                    android:layout_marginBottom="@dimen/dimen10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dimen15dp"
+                        android:text="@string/TotalnooftimeyounotfollowedMedication"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/Placeholder"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                    <TextView
+                        android:id="@+id/medicationcountunfollowed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="02"
+                        android:layout_marginRight="@dimen/dimen15dp"
+                        android:textSize="@dimen/Text"
+                        android:layout_marginTop="@dimen/dimen5dp"
+                        android:textColor="@color/text_red"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
+
+</LinearLayout>

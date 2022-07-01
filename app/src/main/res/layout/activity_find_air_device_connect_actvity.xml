@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightblue"
+    tools:context=".Front_End.UI.FindAirDeviceConnectActvity">
+
+    <include layout="@layout/toolbar"></include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen2dp"
+        android:background="@color/TextBlue"
+        android:backgroundTint="@color/divider"/>
+
+    <LinearLayout
+        android:id="@+id/findairconnect1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+         android:orientation="vertical"
+        >
+
+
+    <ImageView
+        android:layout_marginTop="@dimen/dimen30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/findalirdeviceame">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/PlaceFindAirONEdeviceinthecircleabove"
+        android:textColor="@color/Textblack"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dimen20dp"
+        android:padding="@dimen/dimen20dp"
+        android:textSize="@dimen/Text"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonFindAirConnect"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen45dp"
+            android:layout_marginBottom="@dimen/dimen10dp"
+            android:layout_marginTop="@dimen/dimen50dp"
+            android:background="@drawable/buttonshape"
+            android:text="@string/connect"
+            android:layout_marginLeft="@dimen/dimen5dp"
+            android:layout_marginRight="@dimen/dimen5dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/Button_Background"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Findairconnectscrren2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/FindAirONE"
+            android:gravity="center"
+            android:textColor="@color/TextBlue"
+            android:textSize="@dimen/MainHeading">
+        </TextView>
+
+        <ProgressBar
+            android:layout_marginTop="@dimen/dimen20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></ProgressBar>
+
+
+        <TextView
+            android:layout_marginTop="@dimen/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Searchingforthedevice"
+            android:gravity="center"
+            android:textColor="@color/TextBlue"
+            android:textSize="@dimen/Text">
+        </TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

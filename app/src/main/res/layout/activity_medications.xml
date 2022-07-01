@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Front_End.UI.MedicationsActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <include layout="@layout/toolbar"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen2dp"
+        android:background="@color/divider"
+        android:backgroundTint="@color/divider"/>
+
+    <!--        Layout 1 starts here-->
+
+    <RelativeLayout
+        android:id="@+id/action_plan1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dimen10dp"
+            android:paddingTop="@dimen/dimen10dp"
+            android:paddingRight="@dimen/dimen10dp"
+            android:paddingBottom="@dimen/dimen10dp">
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen5dp"
+                android:layout_marginTop="@dimen/dimen5dp"
+                android:layout_marginRight="@dimen/dimen5dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginBottom="@dimen/dimen5dp"
+                app:cardCornerRadius="@dimen/dimen10dp"
+                android:id="@+id/green_card">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/green_card_border"
+                    android:padding="@dimen/dimen5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen5dp">
+
+                            <ImageView
+                                android:id="@+id/green_med_icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="@dimen/dimen5dp"
+                                android:src="@drawable/greensymextrasmall" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dimen10dp"
+                                android:layout_toRightOf="@id/green_med_icon"
+                                android:text="@string/green_zone_doing_well"
+                                android:textColor="@color/text_green"
+                                android:textSize="20sp" />
+
+                        </RelativeLayout>
+
+                        <View
+                            android:background="@color/text_green"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/dimen20dp"
+                            android:layout_height="3dp"/>
+
+                        <TextView
+                            android:id="@+id/greenTxt1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="@dimen/SmallText"
+                            android:text="@string/Youhaventaddedanymedicationsfor"
+                            android:textColor="@color/Placeholder"
+                            android:layout_marginTop="@dimen/dimen20dp"
+                            android:visibility="visible"/>
+
+
+                        <TextView
+                            android:id="@+id/greenTxt2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/Greenzoneyet"
+                            android:textSize="@dimen/SmallText"
+                            android:textColor="@color/Placeholder"
+                            android:layout_marginTop="@dimen/dimen5dp"
+                            android:layout_marginBottom="@dimen/dimen20dp"
+                            android:visibility="visible"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/green_condition_recyclerview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen5dp"/>
+
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen5dp"
+                android:layout_marginTop="@dimen/dimen5dp"
+                android:layout_marginRight="@dimen/dimen5dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginBottom="@dimen/dimen5dp"
+                app:cardCornerRadius="@dimen/dimen10dp"
+                android:id="@+id/yellow_card">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/yellow_card_border"
+                    android:padding="@dimen/dimen5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen5dp">
+
+                            <ImageView
+                                android:id="@+id/yellow_med_icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="@dimen/dimen5dp"
+                                android:src="@drawable/yellowextrasmall" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dimen10dp"
+                                android:layout_toRightOf="@id/yellow_med_icon"
+                                android:text="@string/yellow_zone_feeling_worse"
+                                android:textColor="@color/text_yellow"
+                                android:textSize="20sp" />
+
+                        </RelativeLayout>
+
+
+                        <View
+                            android:background="@color/text_yellow"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/dimen20dp"
+                            android:layout_height="3dp"/>
+
+                        <TextView
+                            android:id="@+id/yellowTxt1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/Youhaventaddedanymedicationsfor"
+                            android:textColor="@color/Placeholder"
+                            android:layout_marginTop="@dimen/dimen20dp"
+                          />
+
+
+
+                        <TextView
+                            android:id="@+id/yellowTxt2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/Yellowzoneyet"
+                            android:textColor="@color/Placeholder"
+                            android:layout_marginTop="@dimen/dimen5dp"
+                            android:layout_marginBottom="@dimen/dimen20dp"
+                      />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/yellow_condition_recyclerview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen5dp"/>
+
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/yellow_rescue_recyclerview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen5dp"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/yellow_steroid_recyclerview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen5dp"/>
+
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen5dp"
+                android:layout_marginTop="@dimen/dimen5dp"
+                android:layout_marginRight="@dimen/dimen5dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginBottom="@dimen/dimen5dp"
+                app:cardCornerRadius="@dimen/dimen10dp"
+                android:id="@+id/red_card">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/red_card_border"
+                    android:padding="@dimen/dimen5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen5dp">
+
+                            <ImageView
+                                android:id="@+id/red_med_icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/redsymextrasmall"
+                                android:paddingLeft="@dimen/dimen5dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dimen10dp"
+                                android:layout_toRightOf="@id/red_med_icon"
+                                android:text="@string/red_zone_medical_alert"
+                                android:textColor="@color/text_red"
+                                android:textSize="20sp" />
+
+                        </RelativeLayout>
+
+
+                        <View
+                            android:background="@color/text_red"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/dimen20dp"
+                            android:layout_height="3dp"/>
+
+                        <TextView
+                            android:id="@+id/redText1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/Youhaventaddedanymedicationsfor"
+                            android:textSize="@dimen/SmallText"
+                            android:textColor="@color/Placeholder"
+                            android:layout_marginTop="@dimen/dimen20dp"/>
+
+
+                        <TextView
+                            android:id="@+id/redTxt2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/Redzoneyet"
+                            android:textSize="@dimen/SmallText"
+                            android:textColor="@color/Placeholder"
+                            android:layout_marginTop="@dimen/dimen5dp"
+                            android:layout_marginBottom="@dimen/dimen20dp"/>
+
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/red_condition_recyclerview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen5dp"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/red_steroid_recyclerview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen5dp"/>
+
+
+
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="end"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="@dimen/dimen20dp"
+                    android:layout_marginBottom="@dimen/dimen20dp"
+                    app:srcCompat="@drawable/flotactionbutton"
+                    android:backgroundTint="@color/TextBlue"
+                    tools:ignore="MissingConstraints"
+                    android:layout_marginRight="@dimen/dimen30dp"
+                    android:visibility="gone"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <!--Layout 2 starts here-->
+
+    <LinearLayout
+        android:id="@+id/action_plan2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <app.briota.sia.Front_End.UI.zoomclass
+            android:id="@+id/templateImage"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dimen10dp"
+            android:layout_marginBottom="@dimen/dimen10dp"
+            android:src="@drawable/img_action_plan" />
+
+    </LinearLayout>
+   </LinearLayout>
+
+
